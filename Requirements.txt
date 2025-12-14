@@ -1,5 +1,14 @@
-streamlit==1.40.1
-pandas==2.2.3
-plotly==5.24.1
-numpy==2.2.0
-openpyxl==3.1.5
+# Navigate to your project folder
+cd path/to/novamart-assignment
+
+# Create/update requirements.txt
+echo "streamlit==1.31.0
+pandas==2.1.4
+plotly==5.18.0
+numpy==1.26.3
+openpyxl==3.1.2" > requirements.txt
+
+# Add, commit and push
+git add requirements.txt
+git commit -m "Fix: Add missing plotly dependency"
+git push origin main
